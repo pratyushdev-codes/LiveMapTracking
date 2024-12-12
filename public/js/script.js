@@ -21,7 +21,7 @@ if (navigator.geolocation) {
 const map = L.map("map").setView([0,0],16);
 
 L.tileLayer("https://a.tile.openstreetmap.org/{z}/{x}/{y}.png",{
-    attribution:"Pratyush Bsdk"
+    attribution:"MediFlow Tracker"
 }).addTo(map);
 
 const markers = {};
